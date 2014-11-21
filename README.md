@@ -589,7 +589,9 @@ Translations of the guide are available in the following languages:
 
 * <a name="no-block-comments"></a>
     Don't use block comments. They cannot be preceded by whitespace and are not
-    as easy to spot as regular comments.
+    as easy to spot as regular comments. Unless they are at the top or bottom of
+    a file and used for illustrating copy/paste-able code which would be otherwise 
+    corrupted by line comment prefixes. 
 <sup>[[link](#no-block-comments)]</sup>
 
   ```Ruby
